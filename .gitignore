@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Local Python virtual environment
+server/djangoenv/
+node_modules/

@@ -1,7 +1,18 @@
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <title>About Us - Best Cars</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    .team-card { width: 30%; margin: 1.5%; text-align: center; }
+    .team-card img { width: 100%; height: 280px; object-fit: cover; }
+    .team-card .title { font-weight: bold; font-size: 1.2em; margin-bottom: 4px; }
+    .team-card .role { color: darkcyan; font-weight: 600; }
+    .team-card .email { font-style: italic; color: #555; }
+    .about-header { padding: 20px 30px; text-align: center; }
+  </style>
 </head>
+<body>
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
@@ -24,45 +35,46 @@
       </div>
     </div>
   </nav>
-  
+
     <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
+      <div class="banner about-header" name="about-header">
+        <h1>About Us</h1>
+        Welcome to Best Cars dealership, home to the best cars in North America. We deal in selling domestic and imported cars at reasonable prices.
+        <p style="margin-top: 10px;">Since 2005 our family-owned network of dealerships has helped more than 50,000 customers find the right car,
+        with transparent pricing, certified pre-owned vehicles and a service team you can trust.</p>
       </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <div style="display: flex;flex-direction: row; justify-content: center; margin:auto">
+      <div class="card team-card">
+        <img class="card-img-top" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Laura Mitchell">
         <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+          <p class="title">Laura Mitchell</p>
+          <p class="role">Chief Executive Officer</p>
+          <p class="card-text">Laura founded Best Cars in 2005 and has over 20 years of experience in automotive retail. She leads the company's growth across North America.</p>
+          <p class="email">laura.mitchell@bestcars.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <div class="card team-card">
+        <img class="card-img-top" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Daniel Ortiz">
         <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+          <p class="title">Daniel Ortiz</p>
+          <p class="role">Head of Sales</p>
+          <p class="card-text">Daniel manages our sales teams in every state. He makes sure each customer gets honest advice and the best deal on their new car.</p>
+          <p class="email">daniel.ortiz@bestcars.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <div class="card team-card">
+        <img class="card-img-top" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya Shah">
         <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+          <p class="title">Priya Shah</p>
+          <p class="role">Customer Experience Manager</p>
+          <p class="card-text">Priya runs our customer support and review programs. She turns customer feedback into better service at all of our dealerships.</p>
+          <p class="email">priya.shah@bestcars.com</p>
         </div>
       </div>
     </div>
     </div>
-    </div>
-    
 </div>
-
+</body>
 </html>
